@@ -50,4 +50,4 @@ Parameters:
 Basri Dogan
 
 ## License
-MIT licensed TODO: Update
+MIT license './LICENSE'
