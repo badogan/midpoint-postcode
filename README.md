@@ -50,4 +50,4 @@ Parameters:
 Basri Dogan
 
 ## License
-MIT license './LICENSE'
+MIT
