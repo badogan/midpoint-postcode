@@ -1,0 +1,15 @@
+{
+  "name": "midpointpostcode",
+  "version": "1.0.0",
+  "description": "Simple tool providing midpoint postcode for an array of postcodes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Basri Dogan (http://basridogan.com)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "postcode": "^2.0.0"
+  }
+}
