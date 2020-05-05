@@ -12,16 +12,18 @@ Some bash here
 '''
 
 ## Usage
-- TODO: Add tests
-- TODO: Error handling (how? which detail?)
+
+- TODO: Error handling (how? which detail?). Update tests?
 - TODO: Update Readme
-- TODO: Test as anyone would test/use
+- TODO: Use /npm install as anyone would test/use
 - TODO: Publish in npmjs
 - FUTURE-TODO: Simplify code. asyc/await, move to pure functions
 - FUTURE-TODO: 'build' passing, 'coverage' xxx tags possible?
 - DONE-TODO: Add license file
-- DONE TODO: Configure CI + badge
+- DONE-TODO: Configure CI + badge
 - DONE-TODO: Check api and make use of whitelisting options for the fields received
+- DONE-TODO: Add tests
+
 
 - LIMITATIONS: filters out the correct postcodes and calculates midpoint only for the valid postcodes. does not indicate if any of the postcodes is incorrect
 
