@@ -1,6 +1,6 @@
 {
   "name": "midpoint-postcode-uk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple tool providing midpoint postcode for an array of postcodes",
   "main": "lib/index.js",
   "scripts": {
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "https://github.com/badogan/midpoint-postcode.git"
   },
+  "keywords": [
+    "postcode",
+    "postcode-uk",
+    "uk",
+    "midpoint",
+    "postcode-midpoint"
+  ],
   "homepage": "https://github.com/badogan/midpoint-postcode#README.md",
   "author": "Basri Dogan (http://basridogan.com)",
   "license": "MIT",
