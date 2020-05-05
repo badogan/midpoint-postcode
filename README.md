@@ -9,14 +9,18 @@ Some bash here
 '''
 
 ## Usage
-- TODO: Error handling
-- TODO: Add license file
 - TODO: Configure CI
-- TODO: Add tests
-- TODO: Simplify code. asyc/await, move to pure functions
 - TODO: Check api and make use of whitelisting options for the fields received
-- TODO: 'build' passing, 'coverage' xxx tags possible?
-- filters out the correct postcodes and calculates midpoint only for the valid postcodes. does not indicate if any of the postcodes is incorrect
+- TODO: Add tests
+- TODO: Error handling (how? which detail?)
+- TODO: Update Readme
+- TODO: Test as anyone would test/use
+- TODO: Publish in npmjs
+- FUTURE-TODO: Simplify code. asyc/await, move to pure functions
+- FUTURE-TODO: 'build' passing, 'coverage' xxx tags possible?
+- DONE-TODO: Add license file
+
+- LIMITATIONS: filters out the correct postcodes and calculates midpoint only for the valid postcodes. does not indicate if any of the postcodes is incorrect
 
 ## Methods
 Make sure absolute minimum is left out
