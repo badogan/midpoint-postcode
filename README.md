@@ -1,7 +1,7 @@
 
 # midpointpostcode
 Simple tool providing midpoint postcode for an array of postcodes.
-Based on endpoints and methods provided by https://postcodes.io/ 
+Endpoints and methods provided by https://postcodes.io/ 
 
 [![badogan](https://circleci.com/gh/badogan/midpoint-postcode.svg?style=shield)](https://app.circleci.com/pipelines/github/badogan/midpoint-postcode)
 
