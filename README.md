@@ -23,24 +23,25 @@ myMidpointPostcode
   .then(postcode => console.log(postcode));
 ```
 
-### Postcode validation method
+## Postcode validation method
 
 Method validates a postcode.
 
 ```js
-console.log(myMidpointPostcode.validate('RG109NY')) //true
-console.log(myMidpointPostcode.validate('XXYYZZT')) //false
+console.log(myMidpointPostcode.validate("RG109NY")); //true
+console.log(myMidpointPostcode.validate("XXYYZZT")); //false
 ```
 
-### Postcode validation method
+## bringMidpointPostcode method
 
 Method returns midpoint postcode for the input postcode(s) array.
 Method ignores invalid postcodes and returns the midpoint postcode for the valid postcodes only. Postcode validation recommended prior to calling the function. Please see validation method above.
 
 ```js
-let postcodesArr = ['RG109NY','SW40NH']
-myMidpointPostcode.bringMidPointPostcode(postcodesArr).then(postcode=>
-console.log(postcode)) //SL30BQ
+let postcodesArr = ["RG109NY", "SW40NH"];
+myMidpointPostcode
+  .bringMidPointPostcode(postcodesArr)
+  .then(postcode => console.log(postcode)); //SL30BQ
 ```
 
 ## Testing

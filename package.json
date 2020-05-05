@@ -6,6 +6,11 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badogan/midpoint-postcode.git"
+  },
+  "homepage": "https://github.com/badogan/midpoint-postcode#README.md",
   "author": "Basri Dogan (http://basridogan.com)",
   "license": "MIT",
   "dependencies": {
