@@ -1,4 +1,4 @@
-# midpointpostcode
+# midpoint-postcode-uk
 
 Simple tool providing midpoint postcode for an array of postcodes.
 Endpoints and methods provided by https://postcodes.io/
@@ -7,60 +7,63 @@ Endpoints and methods provided by https://postcodes.io/
 
 ## Installation
 
-'''bash
-Some bash here
-'''
+```bash
+$ npm install midpoint-postcode-uk
+```
 
 ## Usage
 
-- TODO: Error handling (how? which detail?). Update tests?
-- TODO: Update Readme
-- TODO: Use /npm install as anyone would test/use
-- TODO: Publish in npmjs
-- FUTURE-TODO: Simplify code. asyc/await, move to pure functions
-- FUTURE-TODO: 'build' passing, 'coverage' xxx tags possible?
-- DONE-TODO: Add license file
-- DONE-TODO: Configure CI + badge
-- DONE-TODO: Check api and make use of whitelisting options for the fields received
-- DONE-TODO: Add tests
+```js
+const MidpointPostcode = require("midpoint-postcode-uk");
+const myMidpointPostcode = new MidpointPostcode();
 
+let postcodesArr = ["RG109NY", "SW40NH"];
+myMidpointPostcode
+  .bringMidPointPostcode(postcodesArr)
+  .then(postcode => console.log(postcode));
+```
 
-- LIMITATIONS: filters out the correct postcodes and calculates midpoint only for the valid postcodes. does not indicate if any of the postcodes is incorrect
+### Postcode validation method
 
-## Methods
-
-Make sure absolute minimum is left out
-
-### Method-1
-
-Description for method-1
+Method validates a postcode.
 
 '''js
-Some js code here
+console.log(myMidpointPostcode.validate('RG109NY')) //true
+console.log(myMidpointPostcode.validate('XXYYZZT')) //false
 '''
 
-'''bash
-Some bash here
+### Postcode validation method
+
+Method returns midpoint postcode for the input postcode(s) array.
+Method ignores invalid postcodes and returns the midpoint postcode for the valid postcodes only. Postcode validation recommended prior to calling the function. Please see validation method above.
+
+'''js
+let postcodesArr = ['RG109NY','SW40NH']
+myMidpointPostcode.bringMidPointPostcode(postcodesArr).then(postcode=>
+console.log(postcode)) //SL30BQ
 '''
-
-'''json
-{
-"example-key": "example-value"  
- }
-'''
-
-Parameters:
-
-- 'xxxxx' - number - mini-description
-- 'yyyyy' - array? - mini-description
 
 ## Testing
 
+First, install development dependencies:
+
+```bash
+$ npm install midpoint-postcode-uk
+```
+
+Then, run the tests:
+
+```bash
+$ npm test
+```
+
 ## Support
+
+Please open an issue on this repo
 
 ## Authors
 
-Basri Dogan
+Basri Dogan https://basridogan.com/
 
 ## License
 

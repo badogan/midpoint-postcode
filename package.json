@@ -1,5 +1,5 @@
 {
-  "name": "midpointpostcode",
+  "name": "midpoint-postcode-uk",
   "version": "1.0.0",
   "description": "Simple tool providing midpoint postcode for an array of postcodes",
   "main": "lib/index.js",
